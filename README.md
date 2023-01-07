@@ -1,4 +1,4 @@
-## interior designer
+## exterior design
 An image site for an interior designer.
 - project react.
 - For design and responsiveness I used in Bootstrap.

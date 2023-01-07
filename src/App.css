@@ -2,37 +2,243 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact {
+  margin-top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-toggler {
+  border: 0px solid !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(74, 47, 93, 0.871)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") !important;
+}
+
+.Footer {
   color: white;
+  margin-top: 80px;
+  background-image: linear-gradient(45deg, #b69ec2, #b558c196);
 }
 
-.App-link {
-  color: #61dafb;
+.contact_text {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn {
+  background-color: #996eb0 !important;
+  color: white !important;
+  border: white 3px solid !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.btn:hover{
+  background-color: white !important;
+  color: #62277c87 !important;
+  border: #62277c87 3px solid !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.main {
+  background-image: url('../public/backround.jpg');
+  max-width: 100%;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-margin-top: 81px;
+}
+
+.main_color {
+  background-color: #59375975;
+  height: 60vh;
+}
+
+.main_text {
+  font-size: 70px;
+  color: white;
+  font-weight: 600;
+  margin: auto !important;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.head {
+  height: 81px;
+}
+
+.title_about {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4a2f5dde;
+  margin-top: 30px;
+}
+
+.text_about {
+  font-size: 16px;
+  text-align: right;
+  color: #4a2f5dde;
+}
+
+.nav-link {
+  color: #4a2f5dde !important;
+  font-weight: 600 !important;
+  padding-bottom: 3px !important;
+  border-bottom: 3px solid #f8f9fa !important;
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid #bc63ca !important;
+  color: #4a2f5dde !important;
+  font-weight: 600 !important;
+}
+
+.img_about {
+  height: 250px;
+  width: 100%;
+  border: #a251b0de 4px solid;
+  border-radius: 10px;
+  margin-right: -10vw;
+  background: url('../public/about.png') top 50px center /cover no-repeat;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 20vw - 5px) 100%, 0 100%);
+}
+
+.about {
+  margin-top: 60px;
+  scroll-margin-top: 110px;
+}
+
+.carousel {
+  margin-top: 20px;
+  scroll-margin-top: 50px;
+}
+
+.title_project {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4a2f5dde;
+  margin-top: 60px;
+}
+
+.img_project {
+  height: 450px !important;
+}
+
+.social{
+margin-top: 70px !important;
+}
+
+.button_social {
+  border-radius: 50% !important;
+  background-color: white !important;
+  font-size: 18px !important;
+  padding: 7px 12px 8px 12px !important;
+  border: white 3px solid !important;
+}
+
+.button_social:hover {
+  background-color: #ffffff00 !important;
+  border: white 3px solid !important;
+  border-radius: 50% !important;
+  font-size: 18px !important;
+  padding: 7px 12px 8px 12px !important;
+}
+
+.phone{
+  color: #4a5ab6de;
+  font-size: 20px;
+}
+
+.whatsapp{
+  color: #2aa168de;
+  font-size: 22px;
+}
+
+.email{
+  color: #b14d4dde;
+  font-size: 23px;
+}
+
+.footer_text1{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.footer_text2{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.footer_text3{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.button_submit{
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    margin-top: 0px;
+    scroll-margin-top: 70px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .title_project {
+    margin-top: 20px;
+  }
+
+  .img_project {
+    height: 230px !important;
+  }
+
+  .main_text {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .main {
+    height: 50vh;
+  }
+
+  .main_color {
+    height: 50vh;
+  }
+  .carousel {
+    scroll-margin-top: 80px;
+  }
+  .social{
+    margin-top: 40px !important;
+    }
+  .footer_text1{
+    margin-top: 15px;
+  }
+  .button_submit{
+    margin-bottom: 0px;
   }
 }
